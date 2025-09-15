@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/api/users';
+const API_URL = 'https://my-crud-api-9yao.onrender.com';
 
 function App() {
   const [users, setUsers] = useState([]);
